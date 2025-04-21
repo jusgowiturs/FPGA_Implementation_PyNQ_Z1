@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.srcs/constrs_1/new/fsm.xdc rfile:../../../../../project_1.srcs/constrs_1/new/fsm.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports Pclk]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 8.000 -name sysclk [get_ports Pclk]

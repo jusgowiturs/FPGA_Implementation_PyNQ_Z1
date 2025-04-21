@@ -17,40 +17,34 @@ GOT110  =   3'b011,
 FOUND   =   3'b100
 }state_t;
 state_t P_state,N_state;
-always_ff @(posedge Pclk or posedge rst_n) begin
-    if(rst_n)begin
+always_ff @(posedge Pclk or negedge rst_n) begin
+    if(!rst_n)begin
         counter     <=  0;
         Clk_out     <=  0;
         runindicate <=  0;
     end
-    else if (counter < 125000)begin
+    else if (counter < 1)begin
         counter <= counter + 1;
-    end
+   end
     else begin
-        counter <=  0;
+        counter <=  '0;
         Clk_out <= ~Clk_out;
     end
        
 end
-always_ff @(posedge Pclk)begin
-   if(counter == 0)
-   begin
-   Clk_out  <=  ~Clk_out;
-   counter  <=   '0;
-   end
-end
+
 always_ff @(negedge Clk_out) begin
     runindicate<= ~runindicate;
 end
-always_ff @(posedge Clk_out or posedge rst_n) begin
-    if(rst_n)
+always_ff @(posedge Clk_out or negedge rst_n) begin
+    if(!rst_n)
         P_state <=  IDLE;
     else
         P_state <=  N_state;
 end
 
 always_comb begin
-    N_state = P_state;
+    //N_state = P_state;
     case(P_state) 
         IDLE:begin
             if(data_in  ==  1'b1)
