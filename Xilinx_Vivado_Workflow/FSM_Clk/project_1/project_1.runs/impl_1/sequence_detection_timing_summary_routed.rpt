@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Mon Apr 21 15:10:40 2025
+| Date         : Mon Apr 21 15:25:39 2025
 | Host         : NPTEL007 running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -report_unconstrained -file sequence_detection_timing_summary_routed.rpt -pb sequence_detection_timing_summary_routed.pb -rpx sequence_detection_timing_summary_routed.rpx -warn_on_violation
 | Design       : sequence_detection
@@ -1641,7 +1641,7 @@ Slack:                    inf
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
     SLICE_X113Y103       FDCE                         0.000     0.000 r  FSM_sequential_P_state_reg[0]/C
-    SLICE_X113Y103       FDCE (Prop_fdce_C_Q)         0.141     0.141 f  FSM_sequential_P_state_reg[0]/Q
+    SLICE_X113Y103       FDCE (Prop_fdce_C_Q)         0.141     0.141 r  FSM_sequential_P_state_reg[0]/Q
                          net (fo=4, routed)           0.098     0.239    FSM_sequential_P_state_reg_n_0_[0]
     SLICE_X112Y103       LUT3 (Prop_lut3_I0_O)        0.048     0.287 r  FSM_sequential_N_state_reg[0]_i_1/O
                          net (fo=1, routed)           0.000     0.287    N_state__0[0]

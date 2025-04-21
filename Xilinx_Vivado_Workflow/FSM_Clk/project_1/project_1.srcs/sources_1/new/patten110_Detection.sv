@@ -13,8 +13,8 @@ typedef enum logic [2:0]{
 IDLE    =   3'b000,
 GOT1    =   3'b001,
 GOT11   =   3'b010,
-GOT110  =   3'b011,
-FOUND   =   3'b100
+GOT110  =   3'b011//,
+//FOUND   =   3'b100
 }state_t;
 state_t P_state,N_state;
 always_ff @(posedge Pclk or posedge rst_n) begin
@@ -57,7 +57,7 @@ always_comb begin
                 N_state =   IDLE;
          end
           GOT11:begin
-            if(data_in  ==  1'b1)
+            if(data_in  ==  1'b0)
                 N_state =   GOT110;
             else
                 N_state =   GOT11;
