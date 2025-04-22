@@ -6,3 +6,8 @@
 *.xpr
 *.jou
 *.log
+!*.sv
+!*.xdf
+!*.bit
+!*.tcl
+!*.ltx

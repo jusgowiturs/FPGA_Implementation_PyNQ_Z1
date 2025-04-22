@@ -2,8 +2,8 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Mon Apr 21 15:23:33 2025
-# Process ID: 41276
+# Start of session at: Tue Apr 22 10:40:26 2025
+# Process ID: 22288
 # Current directory: D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.runs/synth_1
 # Command line: vivado.exe -log sequence_detection.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sequence_detection.tcl
 # Log file: D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.runs/synth_1/sequence_detection.vds

@@ -1,6 +1,6 @@
 set_property PACKAGE_PIN H16 [get_ports Pclk]
 set_property IOSTANDARD LVCMOS33 [get_ports Pclk]
-create_clock -name sysclk -period 8.000 [get_ports Pclk]; #125MHz
+#create_clock -name sysclk -period 8.000 [get_ports Pclk]; #125MHz
 
 #set_property PACKAGE_PIN D19 [get_ports rst_n]  #BUTTON_0
 #set_property IOSTANDARD LVCMOS33 [get_ports rst_n]
