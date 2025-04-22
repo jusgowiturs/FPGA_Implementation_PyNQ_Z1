@@ -1,0 +1,938 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Apr 22 11:16:01 2025
+# Process ID: 13304
+# Current directory: D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/utils_1/imports/synth_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17576 D:\BS_ES\DSD\Online_Materials\git_folder_dsd\DSD\FPGA_Project\Xilinx_Vivado_Workflow\FSM_Clk\project_2\project_2.srcs\utils_1\imports\synth_1\sequence_detection.dcp
+# Log file: D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/utils_1/imports/synth_1/vivado.log
+# Journal file: D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/utils_1/imports/synth_1\vivado.jou
+# Running On: NPTEL007, OS: Windows, CPU Frequency: 2189 MHz, CPU Physical cores: 12, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_checkpoint D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/utils_1/imports/synth_1/sequence_detection.dcp
+create_project Clean_project_3 D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/Clean_project_3 -part xc7z020clg400-1
+add_files -norecurse D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.srcs/sources_1/new/patten110_Detection.sv
+add_files -fileset constrs_1 -norecurse D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.srcs/constrs_1/new/fsm.xdc
+update_compile_order -fileset sources_1
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.srcs/sources_1/new/patten110_Detection.sv] -no_script -reset -force -quiet
+remove_files  D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.srcs/sources_1/new/patten110_Detection.sv
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/Clean_project_3/Clean_project_3.srcs/sources_1/bd/design_1/design_1.bd] -no_script -reset -force -quiet
+remove_files  D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/Clean_project_3/Clean_project_3.srcs/sources_1/bd/design_1/design_1.bd
+add_files -norecurse D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.srcs/sources_1/new/patten110_Detection.sv
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+move_files -fileset sim_1 [get_files  D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.srcs/sources_1/new/patten110_Detection.sv]
+update_compile_order -fileset sources_1
+move_files [get_files  D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.srcs/sources_1/new/patten110_Detection.sv]
+update_compile_order -fileset sources_1
+move_files -fileset sim_1 [get_files  D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.srcs/sources_1/new/patten110_Detection.sv]
+move_files [get_files  D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.srcs/sources_1/new/patten110_Detection.sv]
+set_property is_enabled false [get_files  D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.srcs/sources_1/new/patten110_Detection.sv]
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.srcs/sources_1/new/patten110_Detection.sv]
+update_compile_order -fileset sources_1
+set_property used_in_simulation false [get_files  D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.srcs/sources_1/new/patten110_Detection.sv]
+set_property used_in_implementation false [get_files  D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.srcs/sources_1/new/patten110_Detection.sv]
+set_property used_in_implementation true [get_files  D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.srcs/sources_1/new/patten110_Detection.sv]
+set_property source_mgmt_mode DisplayOnly [current_project]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:ila:6.2 ila_0
+endgroup
+close_project
+open_project D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0
+generate_target {instantiation_template} [get_files d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_0_1/ila_0.xci]
+update_compile_order -fileset sources_1
+generate_target all [get_files  d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_0_1/ila_0.xci]
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_0_1/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_0_1/ila_0.xci]
+launch_runs ila_0_synth_1 -jobs 4
+wait_on_run ila_0_synth_1
+export_simulation -of_objects [get_files d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_0_1/ila_0.xci] -directory D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.ip_user_files/sim_scripts -ip_user_files_dir D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.ip_user_files -ipstatic_source_dir D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.cache/compile_simlib/modelsim} {questa=D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.cache/compile_simlib/questa} {riviera=D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.cache/compile_simlib/riviera} {activehdl=D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_1
+set_property CONFIG.C_PROBE0_WIDTH {6} [get_ips ila_1]
+generate_target {instantiation_template} [get_files d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_1/ila_1.xci]
+generate_target all [get_files  d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_1/ila_1.xci]
+catch { config_ip_cache -export [get_ips -all ila_1] }
+export_ip_user_files -of_objects [get_files d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_1/ila_1.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_1/ila_1.xci]
+launch_runs ila_1_synth_1 -jobs 4
+wait_on_run ila_1_synth_1
+export_simulation -of_objects [get_files d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_1/ila_1.xci] -directory D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.ip_user_files/sim_scripts -ip_user_files_dir D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.ip_user_files -ipstatic_source_dir D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.cache/compile_simlib/modelsim} {questa=D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.cache/compile_simlib/questa} {riviera=D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.cache/compile_simlib/riviera} {activehdl=D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+refresh_design
+export_ip_user_files -of_objects  [get_files d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_0_1/ila_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset ila_0 d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_0_1/ila_0.xci
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+export_ip_user_files -of_objects  [get_files d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_1/ila_1.xci] -no_script -reset -force -quiet
+remove_files  -fileset ila_1 d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_1/ila_1.xci
+close_design
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0
+set_property CONFIG.C_PROBE0_WIDTH {6} [get_ips ila_0]
+generate_target {instantiation_template} [get_files d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_0_2/ila_0.xci]
+update_compile_order -fileset sources_1
+generate_target all [get_files  d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_0_2/ila_0.xci]
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_0_2/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_0_2/ila_0.xci]
+export_simulation -of_objects [get_files d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.srcs/sources_1/ip/ila_0_2/ila_0.xci] -directory D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.ip_user_files/sim_scripts -ip_user_files_dir D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.ip_user_files -ipstatic_source_dir D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.cache/compile_simlib/modelsim} {questa=D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.cache/compile_simlib/questa} {riviera=D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.cache/compile_simlib/riviera} {activehdl=D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+set_property -dict [list \
+  CONFIG.C_NUM_OF_PROBES {5} \
+  CONFIG.C_PROBE0_WIDTH {1} \
+] [get_ips ila_0]
+set_property CONFIG.C_NUM_OF_PROBES {4} [get_ips ila_0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_project
+open_project D:/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/project_2/project_2.runs/impl_1/sequence_detection.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {D:/project_2/project_2.runs/impl_1/sequence_detection.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/project_2/project_2.runs/impl_1/sequence_detection.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {D:/project_2/project_2.runs/impl_1/sequence_detection.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/project_2/project_2.runs/impl_1/sequence_detection.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/project_2/project_2.runs/impl_1/sequence_detection.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+startgroup 
+set_property CONTROL.WINDOW_COUNT 2 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+set_property CONTROL.DATA_DEPTH 512 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+set_property CONTROL.TRIGGER_POSITION 511 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+endgroup
+startgroup 
+set_property CONTROL.WINDOW_COUNT 2 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+set_property CONTROL.DATA_DEPTH 512 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+set_property CONTROL.TRIGGER_POSITION 511 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+endgroup
+startgroup 
+set_property CONTROL.DATA_DEPTH 512 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+set_property CONTROL.TRIGGER_POSITION 511 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+endgroup
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+set_property CONTROL.WINDOW_COUNT 1 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+set_property CONTROL.TRIGGER_CONDITION OR [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_ila_inst"}]]
+save_wave_config {D:/project_2/project_2.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_project
+create_project Counter D:/Counter -part xc7z020clg400-1
+file mkdir D:/Counter/Counter.srcs/sources_1/new
+close [ open D:/Counter/Counter.srcs/sources_1/new/Counter.sv w ]
+add_files D:/Counter/Counter.srcs/sources_1/new/Counter.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir D:/Counter/Counter.srcs/constrs_1
+file mkdir D:/Counter/Counter.srcs/constrs_1/new
+close [ open D:/Counter/Counter.srcs/constrs_1/new/counter_constrain.xdc w ]
+add_files -fileset constrs_1 D:/Counter/Counter.srcs/constrs_1/new/counter_constrain.xdc
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0
+set_property -dict [list \
+  CONFIG.C_NUM_OF_PROBES {5} \
+  CONFIG.C_PROBE0_TYPE {2} \
+  CONFIG.C_PROBE1_TYPE {2} \
+  CONFIG.C_PROBE2_TYPE {2} \
+  CONFIG.C_PROBE3_TYPE {2} \
+  CONFIG.C_PROBE4_TYPE {1} \
+  CONFIG.C_PROBE4_WIDTH {4} \
+] [get_ips ila_0]
+generate_target {instantiation_template} [get_files d:/Counter/Counter.srcs/sources_1/ip/ila_0/ila_0.xci]
+update_compile_order -fileset sources_1
+create_ip -name vio -vendor xilinx.com -library ip -version 3.0 -module_name vio_0
+set_property -dict [list \
+  CONFIG.C_NUM_PROBE_IN {3} \
+  CONFIG.C_PROBE_OUT0_WIDTH {4} \
+] [get_ips vio_0]
+generate_target {instantiation_template} [get_files d:/Counter/Counter.srcs/sources_1/ip/vio_0/vio_0.xci]
+update_compile_order -fileset sources_1
+set_property -dict [list \
+  CONFIG.C_NUM_OF_PROBES {4} \
+  CONFIG.C_PROBE0_TYPE {0} \
+  CONFIG.C_PROBE1_TYPE {0} \
+  CONFIG.C_PROBE2_TYPE {0} \
+  CONFIG.C_PROBE3_TYPE {1} \
+  CONFIG.C_PROBE3_WIDTH {4} \
+] [get_ips ila_0]
+set_property -dict [list \
+  CONFIG.C_NUM_PROBE_IN {1} \
+  CONFIG.C_NUM_PROBE_OUT {3} \
+  CONFIG.C_PROBE_IN0_WIDTH {4} \
+  CONFIG.C_PROBE_OUT0_WIDTH {1} \
+] [get_ips vio_0]
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+synth_design -dataflow -name dfv_1
+open_run synth_1 -name synth_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files D:/Counter/Counter.srcs/sources_1/new/Counter.sv] -no_script -reset -force -quiet
+remove_files  D:/Counter/Counter.srcs/sources_1/new/Counter.sv
+export_ip_user_files -of_objects  [get_files d:/Counter/Counter.srcs/sources_1/ip/vio_0/vio_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset vio_0 d:/Counter/Counter.srcs/sources_1/ip/vio_0/vio_0.xci
+export_ip_user_files -of_objects  [get_files d:/Counter/Counter.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset ila_0 d:/Counter/Counter.srcs/sources_1/ip/ila_0/ila_0.xci
+export_ip_user_files -of_objects  [get_files D:/Counter/Counter.srcs/constrs_1/new/counter_constrain.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 D:/Counter/Counter.srcs/constrs_1/new/counter_constrain.xdc
+add_files -norecurse {D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/Counter_By_Prof/counter_tb.sv D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/Counter_By_Prof/counter.sv D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/Counter_By_Prof/counter_top.sv}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/Counter_By_Prof/PYNQ-Z1_C.xdc
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0
+set_property -dict [list \
+  CONFIG.C_NUM_OF_PROBES {2} \
+  CONFIG.C_PROBE1_WIDTH {4} \
+] [get_ips ila_0]
+generate_target {instantiation_template} [get_files d:/Counter/Counter.srcs/sources_1/ip/ila_0_1/ila_0.xci]
+update_compile_order -fileset sources_1
+create_ip -name vio -vendor xilinx.com -library ip -version 3.0 -module_name vio_0
+set_property -dict [list \
+  CONFIG.C_NUM_PROBE_OUT {7} \
+  CONFIG.C_PROBE_IN0_WIDTH {4} \
+  CONFIG.C_PROBE_OUT3_WIDTH {4} \
+  CONFIG.C_PROBE_OUT6_WIDTH {4} \
+] [get_ips vio_0]
+generate_target {instantiation_template} [get_files d:/Counter/Counter.srcs/sources_1/ip/vio_0_1/vio_0.xci]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_design
+open_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {D:/Counter/Counter.runs/impl_1/counter_top.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/Counter/Counter.runs/impl_1/counter_top.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/Counter/Counter.runs/impl_1/counter_top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+set_property PROBES.FILE {D:/Counter/Counter.runs/impl_1/counter_top.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/Counter/Counter.runs/impl_1/counter_top.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/Counter/Counter.runs/impl_1/counter_top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes load -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {load} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes enable -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {enable} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes d_in -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {d_in} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes load -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {load} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes load -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {load} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+set_property PROBES.FILE {D:/Counter/Counter.runs/impl_1/counter_top.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/Counter/Counter.runs/impl_1/counter_top.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/Counter/Counter.runs/impl_1/counter_top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes clksel -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clksel} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes up_down -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {up_down} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clksel -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clksel} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes enable -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {enable} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes enable -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {enable} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes clksel -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clksel} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes clksel -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clksel} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes clkpulse -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+commit_hw_vio [get_hw_probes {clkpulse} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio0"}]]
+endgroup
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila0"}]]
+save_wave_config {D:/Counter/Counter.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_project
+open_project D:/Counter/Counter.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/Counter_By_Prof/counter_top.sv] -no_script -reset -force -quiet
+remove_files  D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/Counter_By_Prof/counter_top.sv
+export_ip_user_files -of_objects  [get_files D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/Counter_By_Prof/counter_tb.sv] -no_script -reset -force -quiet
+remove_files  D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/Counter_By_Prof/counter_tb.sv
+remove_files  D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/Counter_By_Prof/counter_top.sv
+close [ open D:/Counter/Counter.srcs/sources_1/new/Top.sv w ]
+add_files D:/Counter/Counter.srcs/sources_1/new/Top.sv
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Counter/Counter.srcs/sources_1/new/Top.sv] -no_script -reset -force -quiet
+remove_files  D:/Counter/Counter.srcs/sources_1/new/Top.sv
+file delete -force D:/Counter/Counter.srcs/sources_1/new/Top.sv
+add_files -norecurse {D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/Counter_By_Prof/counter.sv D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/Counter_By_Prof/counter_top.sv}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
