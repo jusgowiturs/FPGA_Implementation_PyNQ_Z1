@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1745220753">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1744886797">
+  <File Type="OPT-HWDEF" Name="lab1.hwdef"/>
+  <File Type="ROUTE-BUS-SKEW" Name="lab1_bus_skew_routed.rpt"/>
+  <File Type="PA-DCP" Name="lab1.dcp"/>
   <File Type="ROUTE-PWR" Name="lab1_power_routed.rpt"/>
   <File Type="PA-TCL" Name="lab1.tcl"/>
   <File Type="BITSTR-MMI" Name="lab1.mmi"/>
@@ -10,7 +13,6 @@
   <File Type="OPT-TIMING" Name="lab1_timing_summary_opted.rpt"/>
   <File Type="OPT-DCP" Name="lab1_opt.dcp"/>
   <File Type="OPT-DRC" Name="lab1_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="lab1.hwdef"/>
   <File Type="PWROPT-DCP" Name="lab1_pwropt.dcp"/>
   <File Type="PWROPT-DRC" Name="lab1_drc_pwropted.rpt"/>
   <File Type="PWROPT-TIMING" Name="lab1_timing_summary_pwropted.rpt"/>
@@ -48,7 +50,6 @@
   <File Type="ROUTE-TIMING-RPX" Name="lab1_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="lab1_incremental_reuse_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="lab1_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="lab1_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="lab1_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="lab1_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="lab1_postroute_physopt.dcp"/>
@@ -108,20 +109,14 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
     <Filter Type="Utils"/>
-    <File Path="$PSRCDIR/utils_1/imports/synth_1/lab1.dcp">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedInSteps" Val="synth_1"/>
-        <Attr Name="AutoDcp" Val="1"/>
-      </FileInfo>
-    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

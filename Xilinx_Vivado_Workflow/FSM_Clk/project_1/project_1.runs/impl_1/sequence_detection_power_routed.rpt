@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date             : Tue Apr 22 10:43:40 2025
-| Host             : NPTEL007 running 64-bit major release  (build 9200)
+| Date             : Wed May  7 08:49:57 2025
+| Host             : LaduNRitu running 64-bit major release  (build 9200)
 | Command          : report_power -file sequence_detection_power_routed.rpt -pb sequence_detection_power_summary_routed.pb -rpx sequence_detection_power_routed.rpx
 | Design           : sequence_detection
 | Device           : xc7z020clg400-1
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.839        |
+| Total On-Chip Power (W)  | 3.612        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.721        |
-| Device Static (W)        | 0.118        |
+| Dynamic (W)              | 3.400        |
+| Device Static (W)        | 0.211        |
 | Effective TJA (C/W)      | 11.5         |
-| Max Ambient (C)          | 75.3         |
-| Junction Temperature (C) | 34.7         |
+| Max Ambient (C)          | 43.3         |
+| Junction Temperature (C) | 66.7         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,16 +52,14 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.237 |       81 |       --- |             --- |
-|   LUT as Logic |     0.198 |       35 |     53200 |            0.07 |
-|   CARRY4       |     0.018 |        7 |     13300 |            0.05 |
-|   Register     |     0.015 |       32 |    106400 |            0.03 |
+| Slice Logic    |     0.037 |        9 |       --- |             --- |
+|   LUT as Logic |     0.029 |        4 |     53200 |           <0.01 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
-|   Others       |     0.000 |        4 |       --- |             --- |
-| Signals        |     0.260 |       76 |       --- |             --- |
-| I/O            |     0.224 |        5 |       125 |            4.00 |
-| Static Power   |     0.118 |          |           |                 |
-| Total          |     0.839 |          |           |                 |
+|   Register     |     0.002 |        2 |    106400 |           <0.01 |
+| Signals        |     0.055 |       10 |       --- |             --- |
+| I/O            |     3.309 |        5 |       125 |            4.00 |
+| Static Power   |     0.211 |          |           |                 |
+| Total          |     3.612 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,20 +69,20 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.516 |       0.506 |      0.010 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.020 |       0.008 |      0.012 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     0.062 |       0.061 |      0.001 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.136 |       0.100 |      0.037 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.146 |       0.121 |      0.025 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.935 |       0.934 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vccbram   |       1.000 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
+| Vccbram   |       1.000 |     0.002 |       0.000 |      0.002 |       NA    | Unspecified | NA         |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vccpint   |       1.000 |     0.022 |       0.000 |      0.022 |       NA    | Unspecified | NA         |
+| Vccpint   |       1.000 |     0.064 |       0.000 |      0.064 |       NA    | Unspecified | NA         |
 | Vccpaux   |       1.800 |     0.010 |       0.000 |      0.010 |       NA    | Unspecified | NA         |
 | Vccpll    |       1.800 |     0.003 |       0.000 |      0.003 |       NA    | Unspecified | NA         |
 | Vcco_ddr  |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -145,7 +143,7 @@ Table of Contents
 +--------------------+-----------+
 | Name               | Power (W) |
 +--------------------+-----------+
-| sequence_detection |     0.721 |
+| sequence_detection |     3.400 |
 +--------------------+-----------+
 
 

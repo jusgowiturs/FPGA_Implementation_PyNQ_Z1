@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/lab_1/lab_1.runs/synth_1'
+HD_PWD='E:/DSD/Xilinx_Vivado_Workflow/lab_1/lab_1.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

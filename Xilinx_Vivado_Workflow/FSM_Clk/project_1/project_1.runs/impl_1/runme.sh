@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.runs/impl_1'
+HD_PWD='E:/DSD/Xilinx_Vivado_Workflow/FSM_Clk/project_1/project_1.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,7 +41,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .init_design.begin.rst
+/bin/touch .write_bitstream.begin.rst
 EAStep vivado -log sequence_detection.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source sequence_detection.tcl -notrace
 
 

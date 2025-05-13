@@ -31,8 +31,8 @@ module lab1(
     );
     
     assign led[0] = ~btn[0];
-    assign led[1] = ~btn[1];
-    assign led[3] = ~btn[2];
-    assign led[2] = ~btn[3];
+    assign led[1] = btn[1] & ~btn[2];
+    assign led[3] = btn[2] & btn[3];
+    assign led[2] = led[1] | led[3];
      
 endmodule

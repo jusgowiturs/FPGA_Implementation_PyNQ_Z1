@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/lab_1/lab_1.srcs/constrs_1/new/lab1_pynq.xdc rfile:../../../lab_1.srcs/constrs_1/new/lab1_pynq.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:E:/DSD/Xilinx_Vivado_Workflow/lab_1/lab_1.srcs/constrs_1/new/lab1_pynq.xdc rfile:../../../lab_1.srcs/constrs_1/new/lab1_pynq.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:26 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN D19   IOSTANDARD LVCMOS33 } [get_ports { btn[0] }];
 set_property src_info {type:XDC file:1 line:27 export:INPUT save:INPUT read:READ} [current_design]

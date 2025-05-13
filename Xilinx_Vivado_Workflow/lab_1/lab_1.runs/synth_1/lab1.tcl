@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/lab_1/lab_1.runs/synth_1/lab1.tcl"
+  variable script "E:/DSD/Xilinx_Vivado_Workflow/lab_1/lab_1.runs/synth_1/lab1.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,23 +70,28 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
+set_param checkpoint.writeSynthRtdsInDcp 1
+set_param chipscope.maxJobs 2
+set_param synth.incrementalSynthesisCache C:/Users/jusgowiturs/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-1496-LaduNRitu/incrSyn
 set_param xicom.use_bs_reader 1
+set_msg_config -id {HDL-1065} -limit 10000
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg400-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/lab_1/lab_1.cache/wt [current_project]
-set_property parent.project_path D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/lab_1/lab_1.xpr [current_project]
+set_property webtalk.parent_dir E:/DSD/Xilinx_Vivado_Workflow/lab_1/lab_1.cache/wt [current_project]
+set_property parent.project_path E:/DSD/Xilinx_Vivado_Workflow/lab_1/lab_1.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo d:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/lab_1/lab_1.cache/ip [current_project]
+set_property ip_output_repo e:/DSD/Xilinx_Vivado_Workflow/lab_1/lab_1.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/lab_1/lab_1.srcs/sources_1/new/lab_1.v
+read_verilog -library xil_defaultlib E:/DSD/Xilinx_Vivado_Workflow/lab_1/lab_1.srcs/sources_1/new/lab_1.v
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -96,12 +101,10 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/lab_1/lab_1.srcs/constrs_1/new/lab1_pynq.xdc
-set_property used_in_implementation false [get_files D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/lab_1/lab_1.srcs/constrs_1/new/lab1_pynq.xdc]
+read_xdc E:/DSD/Xilinx_Vivado_Workflow/lab_1/lab_1.srcs/constrs_1/new/lab1_pynq.xdc
+set_property used_in_implementation false [get_files E:/DSD/Xilinx_Vivado_Workflow/lab_1/lab_1.srcs/constrs_1/new/lab1_pynq.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
-
-read_checkpoint -auto_incremental -incremental D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/lab_1/lab_1.srcs/utils_1/imports/synth_1/lab1.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

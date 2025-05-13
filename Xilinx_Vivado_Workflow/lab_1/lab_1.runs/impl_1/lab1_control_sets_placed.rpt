@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Mon Apr 21 13:04:03 2025
-| Host         : NPTEL007 running 64-bit major release  (build 9200)
+| Date         : Thu Apr 17 16:17:21 2025
+| Host         : LaduNRitu running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file lab1_control_sets_placed.rpt
 | Design       : lab1
 | Device       : xc7z020
