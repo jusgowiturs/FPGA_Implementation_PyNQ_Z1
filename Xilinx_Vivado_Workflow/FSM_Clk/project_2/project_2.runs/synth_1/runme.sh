@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.runs/synth_1'
+HD_PWD='E:/DSD/FPGA_Implementation_PyNQ_Z1/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log sequence_detection.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source sequence_detection.tcl
+EAStep vivado -log design_1_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl

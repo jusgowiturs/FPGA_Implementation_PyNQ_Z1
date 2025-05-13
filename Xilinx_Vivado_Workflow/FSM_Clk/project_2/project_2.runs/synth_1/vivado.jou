@@ -2,12 +2,12 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Tue Apr 22 12:05:35 2025
-# Process ID: 42676
-# Current directory: D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.runs/synth_1
-# Command line: vivado.exe -log sequence_detection.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sequence_detection.tcl
-# Log file: D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.runs/synth_1/sequence_detection.vds
-# Journal file: D:/BS_ES/DSD/Online_Materials/git_folder_dsd/DSD/FPGA_Project/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.runs/synth_1\vivado.jou
-# Running On: NPTEL007, OS: Windows, CPU Frequency: 2189 MHz, CPU Physical cores: 12, Host memory: 16876 MB
+# Start of session at: Tue May 13 19:57:36 2025
+# Process ID: 16096
+# Current directory: E:/DSD/FPGA_Implementation_PyNQ_Z1/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: E:/DSD/FPGA_Implementation_PyNQ_Z1/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.runs/synth_1/design_1_wrapper.vds
+# Journal file: E:/DSD/FPGA_Implementation_PyNQ_Z1/Xilinx_Vivado_Workflow/FSM_Clk/project_2/project_2.runs/synth_1\vivado.jou
+# Running On: LaduNRitu, OS: Windows, CPU Frequency: 2400 MHz, CPU Physical cores: 4, Host memory: 8435 MB
 #-----------------------------------------------------------
-source sequence_detection.tcl -notrace
+source design_1_wrapper.tcl -notrace
